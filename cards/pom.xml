@@ -56,6 +56,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -66,7 +70,7 @@
 				<version>3.4.1</version>
 				<configuration>
 					<to>
-						<image>jasonxie600/${project.artifactId}:s4</image>
+						<image>jasonxie600/${project.artifactId}:s6</image>
 					</to>
 				</configuration>
 			</plugin>

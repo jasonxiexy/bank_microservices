@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to maltese accounts related QA APIs "
+  contactDetails:
+    name: "Jason X - QA Lead"
+    email: "xjason0312@gmail.com"
+  onCallSupport:
+    - (778) 321-1234
+    - (778) 321-1345

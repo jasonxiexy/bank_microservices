@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to Maltese cards related QA APIs "
+  contactDetails:
+    name: "Jason X - Product Owner"
+    email: "xjason91@yahoo.com"
+  onCallSupport:
+    - (617) 432-2356
+    - (936) 564-8721

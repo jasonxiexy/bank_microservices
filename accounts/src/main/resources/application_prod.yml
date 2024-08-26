@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to maltese accounts related prod APIs "
+  contactDetails:
+    name: "Jason X - Product Owner"
+    email: "xjason0312@gmail.com"
+  onCallSupport:
+    - (778) 321-1234
+    - (778) 321-1345

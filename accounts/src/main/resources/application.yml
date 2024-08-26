@@ -17,3 +17,23 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "qa"
+#      - "prod"
+
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to maltese accounts related local APIs "
+  contactDetails:
+    name: "Jason X - Developer"
+    email: "xjason0312@gmail.com"
+  onCallSupport:
+    - (778) 321-1234
+    - (778) 321-1345
