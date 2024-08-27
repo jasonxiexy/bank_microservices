@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to maltese accounts related local APIs "
+  contactDetails:
+    name: "Jason X - Developer"
+    email: "xjason0312@gmail.com"
+  onCallSupport:
+    - (778) 321-1234
+    - (778) 321-1345
